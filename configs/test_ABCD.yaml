@@ -1,0 +1,17 @@
+# general args
+resume: /path/to/pth.tar
+pre_trained: False
+test: valid
+
+# Dataset
+dataset: KITTI
+data_root: /path/to//KITTI_raw
+num_points: 32768
+val_samples: -1
+
+# miscalleneous
+workers: 4
+
+# Test args
+weather: clone
+save_image: False
