@@ -1,8 +1,5 @@
 # ABCD
 
-README
-=============
-
 ## Requirements
 
 * Python3.6
