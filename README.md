@@ -63,5 +63,18 @@ Set resume in the test_ABCD.yaml file.
 python main.py configs/test_ABCD.yaml
 ```
 
+## Citation
+If you use our code or method in your work, please cite the following:
+```
+@article{jeon2021abcd,
+  title={ABCD: Attentive Bilateral Convolutional Network for Robust Depth Completion},
+  author={Jeon, Yurim and Kim, Hwichang and Seo, Seung-Woo},
+  journal={IEEE Robotics and Automation Letters},
+  year={2021},
+  publisher={IEEE}
+}
+```
+Please direct any questions to Yurim Jeon at yurimjeon1892@gmail.com
+
 ## ACKNOWLEDGMENTS
 Our BCL implementation is based on https://github.com/laoreja/HPLFlowNet. 
