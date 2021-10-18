@@ -1,5 +1,7 @@
 # ABCD
 
+This repository contains the code (in PyTorch) for "ABCD: Attentive Bilateral Convolutional Network for Robust Depth Completion" paper (RA-L).
+
 ## Requirements
 
 * Python3.6
