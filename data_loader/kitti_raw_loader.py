@@ -212,7 +212,7 @@ class ProcessKITTI(object):
         sparse_pnts = np.array(sparse_pnts) / (2 ** 8)
         return sparse_pnts
 
-    def crop_im(self, img):
+    def crop_im(self, img, th=352, tw=1216):
         i, j = 0, 0
         if img.ndim == 3:
             return img[i:i + th, j:j + tw, :]

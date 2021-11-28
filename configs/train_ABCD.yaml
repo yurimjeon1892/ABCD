@@ -6,7 +6,7 @@ pre_trained: False
 
 # Dataset
 dataset: KITTI
-data_root: /path/to/KITTI_raw
+data_root: /path/to/KITTI_RAW
 num_points: 32768
 train_samples: -1
 val_samples: -1

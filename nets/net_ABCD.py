@@ -135,7 +135,6 @@ class ABCD(nn.Module):
                                        last_relu=args['last_relu'],
                                        chunk_size=self.chunk_size)
 
-        # self.pc_mask1 = conv_bn_relu(self.pc_feat_channel, 1, kernel_size=1, stride=1, padding=0)
         self.pc_mask1 = nn.Sequential(
             nn.Conv2d(self.pc_feat_channel, 1, kernel_size=1, stride=1, padding=0, bias=False),
             nn.Sigmoid()
@@ -200,10 +199,6 @@ class ABCD(nn.Module):
                                     padding=1,
                                     output_padding=1)
 
-        # self.im_mask1 = conv_bn_relu(in_channels=(64 + 64 + self.pc_feat_channel),
-        #                              out_channels=1,
-        #                              kernel_size=1,
-        #                              stride=1)
         self.im_mask1 = nn.Sequential(
             nn.Conv2d(64 + 64 + self.pc_feat_channel, 1, kernel_size=1, stride=1, padding=0, bias=False),
             nn.Sigmoid()

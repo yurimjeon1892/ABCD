@@ -19,12 +19,15 @@ pip install -r requirements.txt
 
 ## Data
 ```
-mkdir KITTI_raw && cd KITTI_raw
+mkdir KITTI_RAW && cd KITTI_RAW
+chmod +x raw_data_downloader.sh
 ./raw_data_downloader.sh
+chmod +x depth_completion_data_downloader.sh
+./depth_completion_data_downloader.sh
 ```
 ```
 .
-└── KITTI_raw
+└── KITTI_RAW
     ├── 2011_09_26
     |   ├── 2011_09_26_drive_0001_sync
     |   └── ...
