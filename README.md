@@ -9,7 +9,7 @@ This repository contains the code (in PyTorch) for "ABCD: Attentive Bilateral Co
 * KITTI Depth Completion dataset
 * VirtualKITTI2 dataset
 
-## ENVIRONMENT
+## Environment
 
 ```
 conda create -n abcd python=3.6
