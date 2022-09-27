@@ -17,6 +17,13 @@ conda activate abcd
 pip install -r requirements.txt
 ```
 
+## Set up
+```
+cd lib 
+python build_khash_cffi.py 
+cd ..
+```
+
 ## Data
 ```
 mkdir KITTI_RAW && cd KITTI_RAW
@@ -47,13 +54,6 @@ chmod +x depth_completion_data_downloader.sh
         └── val_selection_cropped
 ```
 
-## SET UP
-```
-cd lib 
-python build_khash_cffi.py 
-cd ..
-```
-
 ## Train
 Set data_root and ckpt_dir in the train_ABCD.yaml file.
 ```
@@ -79,5 +79,5 @@ If you use our code or method in your work, please cite the following:
 ```
 Please direct any questions to Yurim Jeon at yurimjeon1892@gmail.com
 
-## ACKNOWLEDGMENTS
+## Acknowledgements
 Our BCL implementation is based on https://github.com/laoreja/HPLFlowNet. 
