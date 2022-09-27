@@ -4,7 +4,7 @@ This repository contains the code (in PyTorch) for "ABCD: Attentive Bilateral Co
 
 ## Requirements
 
-* Python3.6
+* Python 3.6
 * PyTorch 1.6
 * KITTI Depth Completion dataset
 * VirtualKITTI2 dataset
