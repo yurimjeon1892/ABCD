@@ -10,7 +10,6 @@ This repository contains the code (in PyTorch) for "ABCD: Attentive Bilateral Co
 * VirtualKITTI2 dataset
 
 ## Environment
-
 ```
 conda create -n abcd python=3.6
 conda activate abcd
@@ -65,6 +64,11 @@ Set resume in the test_ABCD.yaml file.
 ```
 python main.py configs/test_ABCD.yaml
 ```
+
+## Pretrained model
+April 2023 update: 
+Please check the config.yaml file to set the parameters before using the pretrained model: 
+[Download link](https://drive.google.com/drive/folders/1lszAdEAPvNBHaBxZQIRDmoQuzBIwAHE4?usp=sharing)
 
 ## Acknowledgements
 Our BCL implementation is based on https://github.com/laoreja/HPLFlowNet. 
