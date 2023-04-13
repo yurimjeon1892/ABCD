@@ -5,7 +5,7 @@ test: valid
 
 # Dataset
 dataset: KITTI
-data_root: /path/to//KITTI_RAW
+data_root: /path/to/KITTI_RAW
 num_points: 32768
 val_samples: -1
 
@@ -13,5 +13,4 @@ val_samples: -1
 workers: 4
 
 # Test args
-weather: clone
 save_image: False
